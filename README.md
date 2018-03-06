@@ -2,8 +2,8 @@
 
 Default namespace: 2b92067e
 
-* Hardcoded the default namespace into the namespace EditText when creating a new user
-* Also hardcoded the default namespace in the MainActivity namespace EditText
+* Hardcoded the namespace into the namespace EditText when creating a new user
+* Also hardcoded the namespace in the MainActivity namespace EditText
 
 
 List of Users             |  Creating a New User
