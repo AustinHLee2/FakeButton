@@ -4,6 +4,7 @@ Default namespace: 2b92067e
 
 * Hardcoded the namespace into the namespace EditText when creating a new user
 * Also hardcoded the namespace in the MainActivity namespace EditText
+* Used Retrofit for the GET and POST requests
 
 
 List of Users             |  Creating a New User
