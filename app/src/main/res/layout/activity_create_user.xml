@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.austinhlee.android.fakebutton.CreateUserActivity"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new user"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="match_parent"
+        android:hint="@string/name_hint"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="match_parent"
+        android:hint="@string/email_hint"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/candidate_editText"
+        android:layout_width="match_parent"
+        android:hint="@string/candidate_hint"
+        android:layout_height="wrap_content"
+        android:text="@string/default_namespace"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:hint="@string/submit"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

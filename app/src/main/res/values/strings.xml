@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FakeButton</string>
+
+    <string name="default_namespace">2b92067e</string>
+
+    <string name="enter_namespace_hint">Enter namespace</string>
+    <string name="search">Search</string>
+
+    <!--CreateUserActivity Strings-->
+    <string name="name_hint">Enter name (required)</string>
+    <string name="email_hint">Enter email (required)</string>
+    <string name="candidate_hint">Enter candidate (required)</string>
+    <string name="submit">Submit</string>
+
+</resources>
